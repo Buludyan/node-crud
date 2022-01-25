@@ -1,0 +1,31 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "Node tutor project",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Buludyan/node-crud.git"
+  },
+  "keywords": [
+    "REST",
+    "CRUD"
+  ],
+  "author": "Arman Buludyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Buludyan/node-crud/issues"
+  },
+  "homepage": "https://github.com/Buludyan/node-crud#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^14.3.0",
+    "eslint": "^8.7.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
